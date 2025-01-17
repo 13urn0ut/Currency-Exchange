@@ -2,7 +2,6 @@ const axios = require("axios");
 require("dotenv").config();
 
 const key = process.env.API_KEY;
-console.log(key);
 
 exports.getSupportedCodes = async () => {
   const {
